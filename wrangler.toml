@@ -1,0 +1,12 @@
+name = "kpis-app"
+type = "javascript"
+account_id = ""
+workers_dev = true
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_paths = ["src/**/*.{js,jsx}"]
+
+[build.upload]
+format = "modules"
